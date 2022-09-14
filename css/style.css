@@ -147,13 +147,11 @@ body {
 --------------------*/
 
 .home {
-    height: 680px;
-    margin: 0;
     padding-top: 88px;
 }
 
 .home__wrapper {
-    margin-top: 40px;
+    padding: 40px 0 104px;
 }
 
 .home__info {
@@ -204,13 +202,13 @@ body {
 --------------------*/
 
 .about {
-    height: 506px;
     display: flex;
     justify-content: center;
+    background-color: #f6f6f6;
 }
 
 .about__wrapper {
-    margin-top: 120px;
+    padding: 120px 0 107px;
 }
 
 .about__title {
@@ -230,12 +228,8 @@ body {
 --------skills--------
 --------------------*/
 
-.skills {
-    height: 610px;
-}
-
 .skills__wrapper {
-    margin-top: 91px;
+    padding: 91px 0 110px;
 }
 
 .skills__description {
@@ -269,24 +263,104 @@ body {
 .skills__stars {
     position: absolute;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     bottom: 0;
     width: 100%;
 }
 
+.star {
+    background-image: url("../img/star.svg");
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    opacity: .3;
+    transition: .3s;
+}
+
+.star:hover ~ .star, .skills__stars > a:hover  {
+    opacity: 1;
+    cursor: pointer;
+}
 
 /*--------------------
 -------portfolio------
 --------------------*/
 
 .portfolio {
-    height: 2253px;
+    background-color: #f6f6f6;
+}
+
+.portfolio__wrapper {
+    padding: 113px 0 96px;
+}
+
+.portfolio__discription {
+    margin-top: 47px;
+}
+
+.portfolio__img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.portfolio__img:nth-child(1n+2) {
+    margin-top: 99px;
+}
+
+.portfolio__link {
+    display: block;
+    margin-top: 45px;
+    color: #070707;
+    text-decoration: underline;
+    text-align: center;
 }
 
 /*--------------------
 -------contacts-------
 --------------------*/
 
-.contacts {
-    height: 622px;
+.contacts__wrapper {
+    padding: 114px 0 123px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__discription {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contacts__btn {
+    display: block;
+    width: 181px;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #070707;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.contacts__btn:hover {
+    background-color: #656464;
+}
+
+.contacts__social {
+    margin-top: 86px;
+    width: 342px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__ps {
+    margin-top: 46px;
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
 }
