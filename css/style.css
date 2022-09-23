@@ -130,7 +130,6 @@ body {
     z-index: 999;
 }
 
-
 .header__burger-menu {
     height: 4px;
     width: 33px;
@@ -138,8 +137,6 @@ body {
     position: relative;
     right: 0;
 }
-
-
 
 .header__nav-list {
     padding: 1.89em 0;
@@ -168,26 +165,32 @@ body {
 .home__name {
     font-size: 2.61rem;
     line-height: 1.24em;
+    width: 12rem;
 }
 
 .home__description {
     display: flex;
     align-items: end;
-    width: 11.11rem;
+    padding-bottom: 7px;
+    width: 10rem;
 }
 
 .home__languages-wrapper {
     position: relative;
-    width: 6.55rem;
+    width: 8.5rem;
 }
 
 .home__languages {
     position: absolute;
     transform: rotate(-90deg);
-    bottom: 1.67rem;
+    bottom: 2.05rem;
     right: -1.556rem;
     font-size: 0.89rem;
     line-height: 1.25em;
+}
+
+.home__languages a {
+    cursor: pointer;
 }
 
 .home__photo {
@@ -272,7 +275,6 @@ body {
 
 .skills__stars {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
 }
@@ -284,12 +286,10 @@ body {
     width: 1.44rem;
     height: 1.44rem;
     opacity: .3;
-    transition: .3s;
 }
 
-.star:hover ~ .star, .skills__stars > a:hover  {
+.star_active {
     opacity: 1;
-    cursor: pointer;
 }
 
 /*--------------------
