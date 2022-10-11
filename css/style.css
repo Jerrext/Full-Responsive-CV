@@ -404,6 +404,9 @@ body {
         margin-top: 1rem;
     }
 
+    .header {
+        position: relative;
+    }
 
     .header__burger-menu, .header__burger-menu:after, .header__burger-menu:before {
         width: 33px;
