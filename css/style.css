@@ -372,3 +372,95 @@ body {
     font-size: clamp(0.778rem, -0.36vw + 1.075rem, 1rem);
     line-height: 1.21em;
 }
+
+.header__burger-list {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .skills__item {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header__nav-list {
+        display: none
+    }
+
+    .home__info {
+        display: block
+    }
+
+    .home__languages {
+        display: none;
+    }
+
+    .home {
+        padding-top: 1.39rem;
+    }
+
+    .home__description {
+        margin-top: 1rem;
+    }
+
+
+    .header__burger-menu, .header__burger-menu:after, .header__burger-menu:before {
+        width: 33px;
+        height: 4px;
+        background-color: #000;
+        position: absolute;
+        top: 83px;
+        right: 30px
+    }
+
+    .header__burger-menu:after {
+        top: 8px;
+        right: 0;
+        content: '';
+    }
+
+    .header__burger-menu:before {
+        top: -8px;
+        right: 0;
+        content: '';
+    }
+
+    .header__burger-list {
+        display: none;
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .burger-menu-close, .burger-menu-close::before{
+        width: 33px;
+        height: 4px;
+        background-color: grey;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 80px;
+        right: 40px;
+    }
+
+    .burger-menu-close::before {
+        transform: rotate(90deg);
+        content: '';
+        top: 0;
+        right: 0;
+    }
+
+    input[type="checkbox"]:checked ~ .header__burger-list{
+        right: 0px;
+        display: block;
+    }
+
+    .header__burger-list li {
+        padding: 66px 0 0 40px;
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+
+
