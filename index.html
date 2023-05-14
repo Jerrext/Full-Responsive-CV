@@ -1,170 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Jerrext</title>
-</head>
-<body>
-	<header class="header" id="header">
-		<div class="container">
-			<div class="header__wrapper">
-				<nav class="header__navigation">
-					<ul class="header__nav-list">
-						<li><a href="#home" class="link text_bold header__nav-link">Home</a></li>
-						<li><a href="#about" class="link text_bold header__nav-link">About me</a></li>
-						<li><a href="#skills" class="link text_bold header__nav-link">Skills</a></li>
-						<li><a href="#portfolio" class="link text_bold header__nav-link">Portfolio</a></li>
-						<li><a href="#contacts" class="link text_bold header__nav-link">Contacts</a></li>
-					</ul>
-					<input type="checkbox" id="nav-toggle" hidden>
-					<label for="nav-toggle" class="header__burger-menu" onclick></label>
-					<div class="header__burger-list">
-						<ul>
-						   <li><a href="#" class="link text_bold">Home</a></li>
-						   <li><a href="#" class="link text_bold">About me</a></li>
-						   <li><a href="#" class="link text_bold">Skills</a></li>
-						   <li><a href="#" class="link text_bold">Portfolio</a></li>
-						   <li><a href="#" class="link text_bold">Contacts</a></li>
-						</ul>
-						<label for="nav-toggle" class="burger-menu-close" onclick></label>
-						<div class="header__languages-wrapper">
-							<p class="header__languages text_bold"><a href="#" class="link header__language-ru">RU</a> | <a href="#" class="link header__language-eng">ENG</a></p>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</header>
-	<main>
-		<section class="home" id="home">
-			<div class="container">
-				<div class="wrapper home__wrapper">
-					<div class="home__info">
-						<h1 class="home__name text_bold">Daniil Kolpakov</h1>
-						<p class="home__description">Frontend developer 20 years old, Bobruisk</p>
-						<div class="home__languages-wrapper">
-							<p class="home__languages text_bold"><a href="#" class="link home__language-ru">RU</a> | <a href="#" class="link home__language-eng">ENG</a></p>
-						</div>
-					</div>
-					<div class="home__photo">
-						<img src="img/rs.jpg" alt="Author">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="about" id="about">
-			<div class="container">
-				<div class="wrapper about__wrapper">
-					<h2 class="about__title title text_bold">About me</h2>
-					<p class="about__description">Hi, I'm Daniil – Frontend developer from Bobruisk. I'am interested in frontend development and everything connected with it.</p>
-					<p class="about__description">I'am a student of "Frontend developer" courses at "TeachMeSkills" IT-school.</p>
-					<p class="about__description">Ready to implement excellent projects with wonderful people.</p>
-				</div>
-			</div>
-		</section>
-		<section class="skills" id="skills">
-			<div class="container">
-				<div class="wrapper skills__wrapper">
-					<h2 class="skills__title title text_bold">Skills</h2>
-					<p class="skills__description">I work in such programs as</p>
-					<div class="skills__programs">
-						<article class="skills__item">
-							<div class="skills__card">
-								<a href="#" class="link">
-									<img src="img/ps.jpg" alt="Adobe Photoshop" class="skills__ps">
-									<p class="skills__program-title text_bold">Adobe <br>Photoshop</p>
-								</a>
-							</div>
-							<div class="skills__stars">
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star"></a>
-							</div>
-						</article>
-						<article class="skills__item">
-							<div class="skills__card">
-								<a href="#" class="link">
-									<img src="img/ai.jpg" alt="Adobe Illustrator" class="skills__ai">
-									<p class="skills__program-title text_bold">Adobe <br>Illustrator</p>
-								</a>
-							</div>
-							<div class="skills__stars">
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star"></a>
-								<a href="#skills" class="star"></a>
-								<a href="#skills" class="star"></a>
-							</div>
-						</article>
-						<article class="skills__item">
-							<div class="skills__card">
-								<a href="#" class="link">
-									<img src="img/ae.jpg" alt="Adobe After Effects" class="skills__ae">
-									<p class="skills__program-title text_bold">Adobe <br>After Effects</p>
-								</a>
-							</div>
-							<div class="skills__stars">
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star"></a>
-								<a href="#skills" class="star"></a>
-							</div>
-						</article>
-						<article class="skills__item">
-							<div class="skills__card">
-								<a href="#" class="link">
-									<img src="img/figma.svg" alt="Figma" class="skills__figma">
-									<p class="skills__program-title text_bold">Figma</p>
-								</a>
-							</div>
-							<div class="skills__stars">
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star star_active"></a>
-								<a href="#skills" class="star"></a>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="portfolio" id="portfolio">
-			<div class="container">
-				<div class="wrapper portfolio__wrapper">
-					<h2 class="portfolio__title title text_bold">Portfolio</h2>
-					<div class="portfolio__discription">
-						<img src="img/web1.jpg" alt="Online fashion store - Homepage" class="portfolio__img">
-						<a href="#" class="portfolio__link">Online fashion store - Homepage</a>
-						<img src="img/web2.jpg" alt="Reebok Store - Concept" class="portfolio__img">
-						<a href="#" class="portfolio__link">Reebok Store - Concept</a>
-						<img src="img/web3.jpg" alt="Braun Landing Page - Concept" class="portfolio__img">
-						<a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="contacts" id="contacts">
-			<div class="container">
-				<div class="wrapper contacts__wrapper">
-					<h2 class="contacts__title title text_bold">Contacts</h2>
-					<p class="contacts__discription">Want to know more or just chat? <br>You are welcome!</p>
-					<a href="#" class="contacts__btn">Send message</a>
-					<div class="contacts__social">
-						<a href="#" class="contacts__link"><img src="img/in.svg" alt="LinkedIn" class="contacts_img"></a>
-						<a href="#" class="contacts__link"><img src="img/inst.svg" alt="Instagram" class="contacts__img"></a>
-						<a href="#" class="contacts__link"><img src="img/be.svg" alt="Behance" class="contacts__img"></a>
-						<a href="#" class="contacts__link"><img src="img/ball.svg" alt="ball" class="contacts__img"></a>
-					</div>
-					<p class="contacts__ps">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
-				</div>
-			</div>
-		</section>
-	</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Daniil Kolpakov</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <nav class="header__navigation">
+            <ul class="header__nav-list">
+              <li>
+                <a href="#home" class="link text_bold header__nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="link text_bold header__nav-link"
+                  >About me</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="link text_bold header__nav-link"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a href="#portfolio" class="link text_bold header__nav-link"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#contacts" class="link text_bold header__nav-link"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+            <input type="checkbox" id="nav-toggle" hidden />
+            <label for="nav-toggle" class="header__burger-menu" onclick></label>
+            <div class="header__burger-list">
+              <ul>
+                <li>
+                  <a href="#home" class="link text_bold"
+                    ><label for="nav-toggle" onclick>Home</label></a
+                  >
+                </li>
+                <li>
+                  <a href="#about" class="link text_bold"
+                    ><label for="nav-toggle" onclick>About us</label></a
+                  >
+                </li>
+                <li>
+                  <a href="#skills" class="link text_bold"
+                    ><label for="nav-toggle" onclick>Skills</label></a
+                  >
+                </li>
+                <li>
+                  <a href="#portfolio" class="link text_bold"
+                    ><label for="nav-toggle" onclick>Portfolio</label></a
+                  >
+                </li>
+                <li>
+                  <a href="#contacts" class="link text_bold"
+                    ><label for="nav-toggle" onclick>Contacts</label></a
+                  >
+                </li>
+              </ul>
+              <label for="nav-toggle" class="burger-menu-close" onclick></label>
+              <div class="header__languages-wrapper">
+                <p class="header__languages text_bold">
+                  <a href="#" class="link header__language-ru">RU</a> |
+                  <a href="#" class="link header__language-eng">ENG</a>
+                </p>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="container">
+          <div class="wrapper home__wrapper">
+            <div class="home__info">
+              <h1 class="home__name text_bold">Daniil Kolpakov</h1>
+              <p class="home__description">
+                Frontend developer 21 years old, Bobruisk
+              </p>
+              <div class="home__languages-wrapper">
+                <p class="home__languages text_bold">
+                  <a href="#" class="link home__language-ru">RU</a> |
+                  <a href="#" class="link home__language-eng">ENG</a>
+                </p>
+              </div>
+            </div>
+            <div class="home__photo">
+              <img src="img/photo.jpg" alt="Author" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="wrapper about__wrapper">
+            <h2 class="about__title title text_bold">About me</h2>
+            <p class="about__description">
+              Hi, I'm Daniil – Frontend developer from Bobruisk. I'am interested
+              in frontend development and everything connected with it.
+            </p>
+            <p class="about__description">
+              I'am a student of "Frontend developer" courses at "TeachMeSkills"
+              IT-school.
+            </p>
+            <p class="about__description">
+              Ready to implement excellent projects with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="wrapper skills__wrapper">
+            <h2 class="skills__title title text_bold">Skills</h2>
+            <p class="skills__description">I work in such programs as</p>
+            <div class="skills__programs">
+              <article class="skills__item">
+                <div class="skills__card">
+                  <img
+                    src="img/vscode.svg"
+                    alt="Visual Studio Code"
+                    class="skills__ps"
+                  />
+                  <p class="skills__program-title text_bold">
+                    Visual Studio <br />
+                    Code
+                  </p>
+                </div>
+                <div class="skills__stars">
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star"></span>
+                </div>
+              </article>
+              <article class="skills__item">
+                <div class="skills__card">
+                  <img src="img/ws.svg" alt="WebStorm" class="skills__ai" />
+                  <p class="skills__program-title text_bold">WebStorm</p>
+                </div>
+                <div class="skills__stars">
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                </div>
+              </article>
+              <article class="skills__item">
+                <div class="skills__card">
+                  <img
+                    src="img/vs.svg"
+                    alt="MS Visual Studio"
+                    class="skills__ae"
+                  />
+                  <p class="skills__program-title text_bold">
+                    MS Visual Studio
+                  </p>
+                </div>
+                <div class="skills__stars">
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                </div>
+              </article>
+              <article class="skills__item">
+                <div class="skills__card">
+                  <img src="img/figma.svg" alt="Figma" class="skills__figma" />
+                  <p class="skills__program-title text_bold">Figma</p>
+                </div>
+                <div class="skills__stars">
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star star_active"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="wrapper portfolio__wrapper">
+            <h2 class="portfolio__title title text_bold">Portfolio</h2>
+            <div class="portfolio__discription">
+              <img src="img/pixema.jpg" alt="Pixema" class="portfolio__img" />
+              <a
+                href="https://github.com/Jerrext/Pixema"
+                class="portfolio__link"
+                >Pixema</a
+              >
+              <img src="img/skyexpo.jpg" alt="SkyExpo" class="portfolio__img" />
+              <a
+                href="https://github.com/Jerrext/SkyExpo"
+                class="portfolio__link"
+                >SkyExpo</a
+              >
+              <img
+                src="img/blogofolio.jpg"
+                alt="Blogofolio"
+                class="portfolio__img"
+              />
+              <a
+                href="https://github.com/Jerrext/Blogofolio"
+                class="portfolio__link"
+                >Blogofolio</a
+              >
+              <img
+                src="img/wildberries.jpg"
+                alt="Wildberries"
+                class="portfolio__img"
+              />
+              <a
+                href="https://github.com/Jerrext/Wildberries"
+                class="portfolio__link"
+                >Wildberries</a
+              >
+              <img src="img/todo.jpg" alt="Todo List" class="portfolio__img" />
+              <a href="https://github.com/Jerrext/Todo" class="portfolio__link"
+                >Todo List</a
+              >
+              <img
+                src="img/stopwatch.jpg"
+                alt="Stopwatch"
+                class="portfolio__img"
+              />
+              <a
+                href="https://github.com/Jerrext/Stopwatch"
+                class="portfolio__link"
+                >Stopwatch</a
+              >
+              <img
+                src="img/axit.jpg"
+                alt="AXIT - Concept"
+                class="portfolio__img"
+              />
+              <a href="https://github.com/Jerrext/AXIT" class="portfolio__link"
+                >AXIT - Concept</a
+              >
+              <img
+                src="img/belrezteh.jpg"
+                alt="Belarusrezinotechnica"
+                class="portfolio__img"
+              />
+              <a
+                href="https://github.com/Jerrext/Belarusrezinotechnica"
+                class="portfolio__link"
+                >Belarusrezinotechnica (Old project)</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="wrapper contacts__wrapper">
+            <h2 class="contacts__title title text_bold">Contacts</h2>
+            <p class="contacts__discription">
+              Want to know more or just chat? <br />You are welcome!
+            </p>
+            <a href="https://t.me/Jerrext" class="contacts__btn"
+              >Send message</a
+            >
+            <div class="contacts__social">
+              <a
+                href="https://www.linkedin.com/in/daniil-kolpakov/"
+                class="contacts__link"
+                ><img src="img/in.svg" alt="LinkedIn" class="contacts_img"
+              /></a>
+              <a
+                href="https://www.instagram.com/jerrext/"
+                class="contacts__link"
+                ><img src="img/inst.svg" alt="Instagram" class="contacts__img"
+              /></a>
+              <a href="https://github.com/Jerrext" class="contacts__link"
+                ><img src="img/gh.svg" alt="GitHub" class="contacts__img"
+              /></a>
+            </div>
+            <p class="contacts__ps">Like me on <br />LinkedIn, Instagram</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
