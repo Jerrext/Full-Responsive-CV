@@ -1,2 +1,2 @@
-# FE39-HW-2
+# My CV
 Landing Page
