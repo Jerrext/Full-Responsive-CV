@@ -1,2 +1,2 @@
 # My CV
-Landing Page
+Visit site: https://jerrext.github.io/Full-Responsive-CV/
